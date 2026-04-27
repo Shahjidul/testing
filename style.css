@@ -45,7 +45,13 @@
 
         nav a:hover {
             color: #f97316;
-            
+        }
+
+        nav a.active {
+            background-color: #f97316;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 5px;
         }
 
         .search-bar {
